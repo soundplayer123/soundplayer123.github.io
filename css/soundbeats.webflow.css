@@ -2297,6 +2297,13 @@ figcaption {
   transition: transform 400ms cubic-bezier(.25, .46, .45, .94), -webkit-transform 400ms cubic-bezier(.25, .46, .45, .94);
 }
 
+@media screen and (max-width:480px) {
+  .brand {
+    width: 100px;
+    height: 50px;
+  }
+}
+
 .brand:hover {
   -webkit-transform: scale(0.94);
   -ms-transform: scale(0.94);
@@ -5581,6 +5588,7 @@ figcaption {
   -ms-grid-column-span: 1;
   grid-column-end: span 1;
 }
+
 
 #w-node-_03dd9d41-6f8f-6dae-ad77-4ec7b94fceda-9e77e2d0 {
   -ms-grid-row: span 2;
